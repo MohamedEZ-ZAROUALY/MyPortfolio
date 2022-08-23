@@ -1,4 +1,3 @@
 # MyPortfolio
 
-## For the live demo :
-Visit my [portfolio](https://ezzaroualymohamed.netlify.app/)
+## For the live demo visit my [portfolio](https://ezzaroualymohamed.netlify.app/)
