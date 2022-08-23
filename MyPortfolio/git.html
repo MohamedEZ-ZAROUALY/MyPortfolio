@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EZ-ZAROUALY Mohamed Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Mohamed</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="index.html#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="index.html#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="index.html#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="index.html#skills-section" class="nav-link"><span>Skills</span></a></li>
+	          <li class="nav-item"><a href="index.html#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="index.html#blog-section" class="nav-link"><span>My Blog</span></a></li>
+	          <li class="nav-item"><a href="index.html#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+          <div class="col-md-12 ftco-animate pb-5 mb-3 text-center">
+            <h1 class="mb-3 bread">Git Post</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="blog.html">Blog <i class="ion-ios-arrow-forward"></i></a></span> <span>Git Post <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate">
+            <h1 id="git">GIT</h1>
+                <p><img src="./images/git/download.png" alt="" ></p>
+                <h2 id="introduction">Introduction</h2>
+                <p>If you have ever developped an application or if you are familiar with coding you may have hearrd the word Git at least one time.And if you haven&#39;t but still interested in understanding what it is ,i will accompagn you through this article to uderstand Git,its concept and the history that lead to its appearance.
+                So without further ado , let&#39;s simply start by getting a general idea of what Git is.</p>
+                <h2 id="definition">Definition</h2>
+                <p>Git is a distributed version control system ( No panic ! we&#39;ll explain this soon ) that appeared in 2005 and created by the father of Linux <strong><em>Linus Torvalds</em></strong> ,used by developers to track and manage changes in the code of projects they make.
+                In other words : if you ever developped an application you may have found yourself working on a new feature of it and just all in a sudden, a bug appears and you need to get back to the old version that contains the functionning code.For that Git comes to help in :</p>
+                <ul>
+                <li>Making  a record of all the changes that have been done in a project, and give us the possibility to revert to a specific version that we want to.</li>
+                <li>It also gives the possibility to many collaborators to work on the same project and all his work to be merged into one source code ; well in real world projects,not only one developpers is working on the application for that bugs are very likely to appear and if we evr want to know who made a certain change to the code ,when and why in order to fix what can be fixed or just to re-establish the last working version.All of that Git can afford !</li>
+                </ul>
+                <p>So here you can say : But we heard you say <em>Git is a version control system</em> , so do we understand there are others ?
+                Well actually yeah that why i said that we will explain this later, so in the next section we will talk about what version control systems are and how are they different!</p>
+                <h2 id="version-control-systems">Version Control Systems</h2>
+                <p>Version Control Systems ( VCS ) - often called source code manager (SCM), revision control system (RCS), and with several other permutations of the words
+                “revision,” “version,” “code,” “content,” “control,” “management,” and “system” - are  tools that manages and tracks different versions of software or digital content. Just as defined in the Git paragraph.
+                But if you have a sharp sight you may see a <strong><em>Distributed</em></strong> word in there ! Well in fact here why I had to enhance the explanation to this paragrah.
+                Other VCS exist indeed but they fall into different categories according to this way they work, for that we can count 2 main categories :</p>
+                <ul>
+                <li><strong><em>Centralized version control :</em></strong>
+                With centralized version control systems, you have a single central copy of your project on a server and commit your changes to this central copy. You pull the files that you need, but you never have a full copy of your project locally. Some of the most common version control systems are centralized, including Subversion (SVN).</li>
+                <li><strong><em>Distributed version control :</em></strong>
+                With distributed version control systems (DVCS), you don&#39;t rely on a central server to store all the versions of a project’s files. Instead, you clone a copy of a repository locally so that you have the full history of the project. Two common distributed version control systems are Git and Mercurial.</li>
+                </ul>
+                <p><img src="./images/git/CVCS-vs-DVCS.png" alt=""></p>
+                <h2 id="history-and-popularity">History and popularity</h2>
+                <p>As with every technology, the history of creation must be alligned with some needs or events, so here is a little snippet of Git history.
+                The Linux kernel is an open source software project of fairly large scope. During the early years of the Linux kernel maintenance (1991–2002,changes to the software were passed around as patches and archived files. In 2002, the Linux kernel project began using a proprietary DVCS called BitKeeper.
+                In 2005, the relationship between the community that developed the Linux kernel and the commercial company that developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of the lessons they learned while using BitKeeper. Some of the goals of the new system were as follows:</p>
+                <ul>
+                <li>Speed</li>
+                <li>Simple design</li>
+                <li>Strong support for non-linear development (thousands of parallel branches)</li>
+                <li>Fully distributed</li>
+                <li>Able to handle large projects like the Linux kernel efficiently (speed and data size)
+                The Linux project started using Git in 2005, and many of the other major Open Source projects switched to it over the next several years. This gave Git a lot of high-profile influencers very early.</li>
+                </ul>
+                <h2 id="pros-and-cons-">Pros and Cons :</h2>
+                <p>As we understood from previous paragraphs, many VCS exist for that we need to understand what Git is capable of and where its flaws reside :</p>
+                <h3 id="advantages-">Advantages :</h3>
+                <ol>
+                <li>Open source and free :
+                Gite is freely available on the internet. You may use Git to manage real estate projects without spending a dimeand because it is open-source, you may obtain its source code and modify it to meet your needs.</li>
+                <li>Git works on all machines :
+                In CVCS, the central server must be srong enough to service the entire team&#39;s queries.It is not really an issue for smaller groups, but the server&#39;s hardware constraints might become a performance bottleneck as the size of team rises.</li>
+                <li>Branging and merging :
+                These both are what set Git apart from other version management systems.Creating different branches is simple and it is simple to carry actons on branches like merging or or switching and removing.</li>
+                <li>Non-linear development :
+                Because collaborators can access the Git repository from anywhere, workj on it and update it, Git allows non-linear development by offering to branch and merging functionalities.</li>
+                <li>Big community :
+                Git is the most used VCS nowadays which makes working with and encountering any issue less of a problem since it will be high probably solved by another user of Git.<h3 id="disandvantages-">Disandvantages :</h3>
+                </li>
+                <li>Learning curve :
+                Although Git offers too many advantages, it&#39;s not that intuitive which makes learning it takes more time.</li>
+                <li>Does not effectively handle storing large binary files :
+                Git cannot compress these files effectively, meaning that the repository size can grow exponentially with each change to a large binary file.</li>
+                </ol>
+                <h2 id="how-does-git-work-">How does Git work ?</h2>
+                <p>Now after that we talked generally about Git and other Version Control Systems, I guess it&#39;s time to understand how does Git do its work.But before that we dive in, we should have a basic understanding of its basic commands :</p>
+                <ul>
+                <li>git init</li>
+                <li>git add </li>
+                <li>git commit</li>
+                </ul>
+                <p>Let&#39;s see what happens when we create a directory using the git init command and when we use git add or git commit.</p>
+                <h3 id="initializing">Initializing</h3>
+                <p>The command <strong>git init</strong> creates an empty Git repository.
+                Git now knows that it should watch the folder you initiated it on.
+                Git creates a hidden folder to keep track of changes : .git directory with subdirectories for objects, refs/heads, refs/tags, and template files. An initial branch without any commits will be created.</p>
+                <h3 id="the-core-areas-of-git">The core areas of git</h3>
+                <p><img src="./images/git/Image 2018-08-29 at 8.26.35 PM.webp" alt=""></p>
+                <p>There are three core areas to git. These are the Working Tree or working directory, the Staging Area also known as Index, and the Local Repository. When working in a git repository files and modifications will travel from the Working Tree to the Staging Area and finish at the Local Repository.We will talk about these three areas in that order.</p>
+                <h4 id="1-the-working-tree">1. The Working Tree</h4>
+                <p>The Working Tree is the area where you are currently working it is an untracked area of git any changes will be marked and seen in the working directory but the changes will be not be saved to git if you don&#39;t save it you will lose all the changes made.</p>
+                <h4 id="2-the-staging-area-">2. The Staging Area :</h4>
+                <p>The Staging Area is when git starts tracking and saving changes that occur in files.</p>
+                <ul>
+                <li>you can add files to the staging area by using <strong>git add filename</strong></li>
+                <li>you can use <strong>git status</strong> to see what is in your Staging Area!</li>
+                </ul>
+                <h4 id="3-the-local-repository-">3. The Local Repository:</h4>
+                <p>The Local Repository is everything in your .git directory. Mainly what you will see in your Local Repository are all of your checkpoints or commits. It is the area that saves everything </p>
+                <ul>
+                <li>you can add files to your local repository by using <strong>git commit</strong></li>
+                <li>you can use <strong>git log</strong> to see what is in your local repository!</li>
+                </ul>
+                <p>In order to understand how Git really handles files and contetn we should take a look on what Git objects are :</p>
+                <h1 id="git-objects-">Git Objects :</h1>
+                <h2 id="blob">Blob</h2>
+                <p>In git, the contents of files are stored in objects called blobs, binary large objects.
+                The difference between blobs and files is that blobs don&#39;t contain meta-data, blobs are just contents.</p>
+                <p>Every blob in git is identified by its SHA-1 hash. SHA-1 hashes consist of 20 bytes, usually represented by 40 characters in hexadecimal form. Throughout this post we will sometimes show just the first characters of that hash.</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\blob.png" alt=""></p>
+                <h2 id="tree">Tree</h2>
+                <p>In git A tree is a directory listing, referring to blobs as well as other trees.</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\tree-tree.png" alt=""></p>
+                <p>The diagram above is equivalent to a file system with a root directory that has one file at /test.js, and a directory named /docs with two files: /docs/pic.png and /docs/1.txt.</p>
+                <h2 id="commit">Commit</h2>
+                <p>In git a commit is like a snapshot of that file system, A commit object includes a pointer to the main tree (the root directory), as well as other meta-data such as the committer, a commit message, and the commit time.
+                 
+                <img src="C:\Users\Douae\Desktop\SOUFIAN\commit.png" alt=""></p>
+                <h2 id="branches">Branches</h2>
+                <p>A branch is just a named reference to a commit, usually, when we use <strong>git init</strong> a branch called  is created by default.
+                <strong>the branch points to the latest commit in the current working line of development</strong>.</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\branch-master.png" alt=""></p>
+                <p>we can create a new branch by <strong>git branch branch_name</strong>, when we execute this command we are creating a new pointer that point to the commit in our current branch, for example, if we create a new branch called test, we are creating a new pointer to the last commit on the branch master.</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\master-test.png" alt=""></p>
+                <p>wait!, now we have 2 branches How does git know what branch we’re currently on?</p>
+                <p><strong>KIDS STUFF</strong> git has a special pointer called HEAD points to the current branch</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\head.png" alt=""></p>
+                <p>to switch from the current branch to test, we can use the <strong>git checkout test</strong>
+                executing this command we change <strong>HEAD</strong> to point to test</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\head-test.png" alt=""></p>
+                <p>Now the test is the active branch is we make any changes and create a new commit the commit will be added to <strong>Test</strong>.</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\test-commit.png" alt=""></p>
+                <p>now if we switch to the branch master, and we make new changes and create a new commit, the commit will be added to the last commit on the branch master.</p>
+                <p><img src="C:\Users\Douae\Desktop\SOUFIAN\master-last-commit.png" alt=""></p>
+                <h2 id="demonstration-of-the-mechanism-of-git-">Demonstration of the mechanism of Git :</h2>
+                <p>After running the command git creates a hidden folder .git that is composed essentially of :</p>
+                <ul>
+                <li>Hooks sub-folder :  This folder contains script files. Git hooks are the scripts that are executed before or after events like commit, push etc.</li>
+                <li>Objects sub-folder : This folder represents an object database of Git.</li>
+                <li>HEAD sub-folder :  This file stores reference to the current branch. It points to the master branch by default.</li>
+                <li>Refs sub-folder :  This folder stores information about tags and branches.</li>
+                <li>Config sub-folder : This is the local configuration file.</li>
+                <li>Index sub-folder : This is a binary file and stores staging information.</li>
+                </ul>
+                <p>The .git folder will contain details of every single change made to the code base. All snapshots of the modifications will be recorded in this folder like a database, which makes it possible to undo the changes and rollback to the desired version of the code.</p>
+                <p>The <strong>.git</strong> folder is hidden to prevent accidental deletion or modification of the folder. The version history of the code base will be lost if this folder is deleted. This means, we will not be able to rollback changes made to the code in future.</p>
+                <p><img src="./images/git/Screenshot 2022-07-25 163738.png" alt=""></p>
+                <p>And before we move to the understanding of each folder here&#39;s a useful information :
+                Git, has a myriad of commands, some of which are practically never used by the average user; as by example, the previous git cat-file. These commands are called <strong>plumbing commands</strong>, while those we have already learned about, such as git add, git commit, and so on, are among the so-called <strong>porcelain commands</strong>.
+                To have an clear idea of the intern working of Git ,in this section we will work with plumbing commands.</p>
+                <h3 id="objects-folder">Objects folder</h3>
+                <p>Let&#39;s begin with the objects folder : 
+                The objects directory is the object database of git, when we create a new repository obviously our .git/objects are initially empty.
+                Now let&#39;s create a text file and stores it in the git database, and see what happened.
+                the plumbing command git hash-object takes some data, stores it in the .git/objects directory, and return the unique key that now refers to that data object.</p>
+                <p><img src="./images/git/Screenshot 2022-07-25 164724.png" alt=""></p>
+                <p>This is how git stores the content initially, as a single file per piece of content, named with the SHA-1 checksum of the content and its header.
+                the subdirectory is named with the first 2 characters of the SHA-1, and the remaining 38 characters for the filename.</p>
+                <p>Now we have content in our git object database, to see the content we can use another plumbing command git cat-file</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 155059.png" alt=""></p>
+                <p>This command inspects .git/objects for contents, we have just to indicate the key of our content.
+                Let&#39;s add multiples files to see what happened</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 155117.png" alt=""></p>
+                <p><img src="./images/git/Screenshot 2022-07-26 155235.png" alt=""></p>
+                <p><img src="./images/git/Screenshot 2022-07-26 155459.png" alt=""></p>
+                <p>Now let&#39;s update the text1 file and see what happend</p>
+                <p>The object database contains both versions of the text1.txt file, Great!, So we can delete the text1.txt file and use Git to recover it from the git/objects, But there is a little problem, remembering the SHA-1 for each version of a file is not practical. and another thing we note storing the file name in our system we just storing the content in a blob, So what is the solution to this problems?</p>
+                <p>Git has Tree Objects which solves the problem of storing the filename and also allows you to store a group of files together.
+                Git stores content like a UNIX filesystem. All the content is stored as tree and blob objects.
+                Git creates a tree by taking a state of the staging area or index and writing a series of tree objects from if.
+                We don&#39;t have an index file in our .git repository, which means we don&#39;t have a staging area yet!
+                let&#39;s create an index by staging some files, to do that we are going to use the plumbing command git update-index.
+                Now let&#39;s add first_file.txt to the staging area, we must pass it the --add option because the file doesn’t yet exist in our staging area (we don’t even have a staging area set up yet) and --cacheinfo because the file we’re adding isn’t in our directory but is
+                in our database. Then, you specify the mode, SHA-1, and filename</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 155235.png" alt=""></p>
+                <p>Now our staging area is created and text.txt is added to it.
+                Now, we can use git write-tree to write the staging area to a tree object. ( creating our tree!)</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 155459.png" alt=""></p>
+                <p>So now it’s time to create a commit object from our staging area. As explained in our previous post, a commit object has a reference to a tree, so we need to create a tree. We can do it with the command git write-tree, which records the contents of the index in a tree object. Of course, we can use git cat-file -t to see that it’s indeed a tree:</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 165437.png" alt=""></p>
+                <p>Creating a tree object of the index
+                And we can use git cat-file -p to see its contents:</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 155459.png" alt=""></p>
+                <p>Great, so we created a tree, and now we need to create a commit object that references this tree.
+                To do that, we can use git commit-tree <tree-hash> -m <commit message>:
+                You should now feel comfortable with the commands used to check the created object’s type, and print its contents:</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 165933.png" alt=""></p>
+                <p>Note that this commit doesn’t have a parent, because it’s the first commit. When we add another commit we will have to declare its parent — we will do so later.</p>
+                <h3 id="working-with-branches-under-the-hood">Working with branches — under the hood</h3>
+                <p>Just as we’ve created a repository and a commit without using git init, git add or git commit, now we will create and switch between branches without using porcelain commands (git branch or git checkout).</p>
+                <p>So far we only have one branch, named master. To create another one with the name of test (as the equivalent of git branch test), we would need to simply create a file named test within .git\refs\heads, and the contents of that file would be the same commit’s hash as the one master points to.</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 170741.png" alt=""></p>
+                <p>Let’s also switch to our newly created branch (the equivalent of git checkout test). For that, we should change HEAD to point to our new branch:</p>
+                <p><img src="./images/git/Screenshot 2022-07-26 170933.png" alt=""></p>
+                <p>Well at this point we acheived the end of the demonstration with plumbing commands.</p>
+                <h2 id="conclusion">Conclusion</h2>
+                <p>Through this article we had a lot of knowledge about what Git is and how it works internally which made us have a clear understanding of nearly every main command we use with Git. </p>
+                <h2 id="sources">Sources</h2>
+                <ul>
+                <li><a href="https://medium.com/swimm/getting-hardcore-creating-a-repo-from-scratch-cc747edbb11c">https://medium.com/swimm/getting-hardcore-creating-a-repo-from-scratch-cc747edbb11c</a></li>
+                <li><a href="https://github.com/kdakan/How-Git-Works">https://github.com/kdakan/How-Git-Works</a></li>
+                <li><a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">https://git-scm.com/book/en/v2/Git-Internals-Git-Objects</a></li>
+                <li><a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F</a></li>
+                </ul>
+
+            
+           
+
+
+            
+              <!-- END comment-list -->
+            
+
+          </div> <!-- .col-md-8 -->
+          
+          <div class="col-lg-4 sidebar ftco-animate">
+          
+            <div class="about-author d-flex p-4 bg-dark">
+                <div class="bio mr-5">
+                  <img src="images/me1.jpg" alt="Image placeholder" class="img-fluid mb-4">
+                </div>
+                <div class="desc">
+                  <h3>EZ-ZAROUALY Mohamed</h3>
+                </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3 class="heading-sidebar">Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/programming/1_Q_YyCxO4v98wsEaIejVA4w.png);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">How do programming languages work ? ?</a></h3>
+                  <div class="meta">
+                    <div><a href="programminglanguages.html" target="_blank"><span class="icon-calendar"></span> August 3rd, 2022</a></div>
+                  </div>
+                </div>
+              </div>
+             
+              
+            </div>
+
+          
+
+            
+          </div>
+
+        </div>
+      </div>
+    </section> <!-- .section -->
+		
+
+    <footer class="ftco-footer ftco-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">About</h2>
+                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/mohamedez-zaroualy/?locale=en_US" target="_blank"><span class="icon-linkedin"></span></a></li>
+                  <li class="ftco-animate"><a href="https://web.facebook.com/muhammad.zr.73594" target="_blank"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="https://www.instagram.com/muhammad.zarou/?utm_medium=copy_link" target="_blank"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4 ml-md-4">
+                <h2 class="ftco-heading-2">Links</h2>
+                <ul class="list-unstyled">
+                    <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                    <li><a href="index.html#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                    <li><a href="index.html#resume-section"><span class="icon-long-arrow-right mr-2"></span>Resume</a></li> 
+                    <li><a href="index.html#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                    <li><a href="index.html#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+    
+                </ul>
+              </div>
+            </div>
+            
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                  <h2 class="ftco-heading-2">Have a Questions?</h2>
+                  <div class="block-23 mb-3">
+                    <ul>
+                      <li><span class="icon icon-map-marker"></span><span class="text">Tetouan - Morocco</span></li>
+                      <li><a href="#"><span class="icon icon-phone"></span><span class="text">+212-770851684</span></a></li>
+                      <li><a href="#"><span class="icon icon-envelope"></span><span class="text">ezzaroualymuhammad@gmail.com</span></a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+  
+              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
